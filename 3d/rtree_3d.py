@@ -375,7 +375,7 @@ def center_of_gravity(nodes):
             a = w*h*l
             xs = xs + (a * (x + (0.5 * w)))
             ys = ys + (a * (y + (0.5 * h)))
-            zs = ys + (a * (z + (0.5 * l)))
+            zs = zs + (a * (z + (0.5 * l)))
             totarea = totarea + a
     return (xs / totarea), (ys / totarea), (zs / totarea)
 
